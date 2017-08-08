@@ -3,7 +3,11 @@ h1 {
 }
 
 h3 {
+  color: blue;
   text-align: center;
+}
+h3:hover{
+  text-decoration: underline;
 }
 
 p {
@@ -16,4 +20,67 @@ p {
 
 .row {
   margin: 75px 0px 75px 0px;
+}
+#operatorsfade {
+  display: none;
+}
+
+#variablesfade{
+  display: none;
+}
+#functionsfade {
+  display: none;
+}
+
+#methodsfade {
+  display: none;
+}
+#argumentsfade {
+  display: none;
+}
+
+#parametersfade {
+  display: none;
+}
+#stringsfade {
+  display: none;
+}
+
+#booleansfade {
+  display: none;
+}
+#attributesfade {
+  display: none;
+}
+
+.operators {
+  display: contents;
+}
+
+.variables{
+  display:contents;
+}
+.functions {
+  display: contents;
+}
+
+.methods {
+  display: contents;
+}
+.arguments {
+  display: contents;
+}
+
+.parameters {
+  display: contents;
+}
+.strings {
+  display: contents;
+}
+
+.booleans {
+  display: contents;
+}
+.attributes {
+  display: contents;
 }

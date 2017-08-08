@@ -1,30 +1,61 @@
 $(document).ready(function() {
   $(".operators").click(function() {
-    $("#fadeToggle").fadeToggle();
+    $("#operatorsfade").fadeToggle();
+    $(".operators").fadeToggle();
   });
   $(".variables").click(function() {
-    $("#slideToggle").fadeToggle();
+    $("#variablesfade").fadeToggle();
   });
   $(".functions").click(function() {
-    $("#fadeToggle").fadeToggle();
+    $("#functionsfade").fadeToggle();
   });
   $(".methods").click(function() {
-    $("#slideToggle").fadeToggle();
+    $("#methodsfade").fadeToggle();
   });
   $(".arguments").click(function() {
-    $("#fadeToggle").fadeToggle();
+    $("#argumentsfade").fadeToggle();
   });
   $(".parameters").click(function() {
-    $("#slideToggle").fadeToggle();
+    $("#parametersfade").fadeToggle();
   });
   $(".strings").click(function() {
-    $("#fadeToggle").fadeToggle();
+    $("#stringsfade").fadeToggle();
   });
   $(".booleans").click(function() {
-    $("#slideToggle").fadeToggle();
+    $("#booleansfade").fadeToggle();
   });
   $(".attributes").click(function() {
-    $("#fadeToggle").fadeToggle();
+    $("#attributesfade").fadeToggle();
   });
+/*Click definitions*/
 
+$("#operatorsfade").click(function() {
+  $(".operators").fadeToggle();
+  $("#operatorsfade").fadeToggle();
+
+});
+$(".variables").click(function() {
+  $("#variablesfade").fadeToggle();
+});
+$(".functions").click(function() {
+  $("#functionsfade").fadeToggle();
+});
+$(".methods").click(function() {
+  $("#methodsfade").fadeToggle();
+});
+$(".arguments").click(function() {
+  $("#argumentsfade").fadeToggle();
+});
+$(".parameters").click(function() {
+  $("#parametersfade").fadeToggle();
+});
+$(".strings").click(function() {
+  $("#stringsfade").fadeToggle();
+});
+$(".booleans").click(function() {
+  $("#booleansfade").fadeToggle();
+});
+$(".attributes").click(function() {
+  $("#attributesfade").fadeToggle();
+});
 });
