@@ -9,6 +9,7 @@ h3 {
   background-color: #2B504A;
   text-align: center;
   border-radius: 15px;
+  padding: 100px 0px 100px 0px;
 }
 h3:hover{
   border: 1px solid white;
@@ -19,7 +20,7 @@ p {
   color: white;;
   background-color: #5C7E78;
   text-align: center;
-  padding: 30px 0px 30px 0px;
+  padding: 100px 0px 100px 0px;
   border-radius: 15px;
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .row {
-  margin: 75px 0px 75px 0px;
+  margin: 25px 0px 25px 0px;
 }
 #operatorsfade {
   display: none;

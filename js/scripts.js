@@ -1,77 +1,79 @@
+
 $(document).ready(function() {
   $(".operators").click(function() {
-    $("#operatorsfade").fadeToggle();
-    $(".operators").fadeToggle();
+    $("#operatorsfade").slideToggle();
+    $(".operators").slideToggle();
   });
   $(".variables").click(function() {
-    $("#variablesfade").fadeToggle();
-    $(".variables").fadeToggle();
+    $("#variablesfade").slideToggle();
+    $(".variables").slideToggle();
   });
   $(".functions").click(function() {
-    $("#functionsfade").fadeToggle();
-    $(".functions").fadeToggle();
+    $("#functionsfade").slideToggle();
+    $(".functions").slideToggle();
   });
   $(".methods").click(function() {
-    $("#methodsfade").fadeToggle();
-    $(".methods").fadeToggle();
+    $("#methodsfade").slideToggle();
+    $(".methods").slideToggle();
   });
   $(".arguments").click(function() {
-    $("#argumentsfade").fadeToggle();
-    $(".arguments").fadeToggle();
+    $("#argumentsfade").slideToggle();
+    $(".arguments").slideToggle();
   });
   $(".parameters").click(function() {
-    $("#parametersfade").fadeToggle();
-    $(".parameters").fadeToggle();
+    $("#parametersfade").slideToggle();
+    $(".parameters").slideToggle();
   });
   $(".strings").click(function() {
-    $("#stringsfade").fadeToggle();
-    $(".strings").fadeToggle();
+    $("#stringsfade").slideToggle();
+    $(".strings").slideToggle();
   });
   $(".booleans").click(function() {
-    $("#booleansfade").fadeToggle();
-    $(".booleans").fadeToggle();
+    $("#booleansfade").slideToggle();
+    $(".booleans").slideToggle();
   });
   $(".attributes").click(function() {
-    $("#attributesfade").fadeToggle();
-    $(".attributes").fadeToggle();
+    $("#attributesfade").slideToggle();
+    $(".attributes").slideToggle();
   });
 /*Click definitions*/
 
-$("#operatorsfade").click(function() {
-  $(".operators").fadeToggle();
-  $("#operatorsfade").fadeToggle();
+  $("#operatorsfade").click(function() {
+    $(".operators").slideToggle();
+    $("#operatorsfade").slideToggle();
 
-});
-$("#variablesfade").click(function() {
-  $(".variables").fadeToggle();
-  $("#variablesfade").fadeToggle();
-});
-$("#functionsfade").click(function() {
-  $(".functions").fadeToggle();
-  $("#functionsfade").fadeToggle();
-});
-$("#methodsfade").click(function() {
-  $(".methods").fadeToggle();
-  $("#methodsfade").fadeToggle();
-});
-$("#argumentsfade").click(function() {
-  $(".arguments").fadeToggle();
-  $("#argumentsfade").fadeToggle();
-});
-$("#parametersfade").click(function() {
-  $(".parameters").fadeToggle();
-  $("#parametersfade").fadeToggle();
-});
-$("#stringsfade").click(function() {
-  $(".strings").fadeToggle();
-  $("#stringsfade").fadeToggle();
-});
-$("#booleansfade").click(function() {
-  $("#booleansfade").fadeToggle();
-  $("#booleansfade").fadeToggle();
-});
-$("#attributesfade").click(function() {
-  $(".attributes").fadeToggle();
-  $("#attributesfade").fadeToggle();
-});
+  });
+  $("#variablesfade").click(function() {
+    $(".variables").slideToggle();
+    $("#variablesfade").slideToggle();
+  });
+  $("#functionsfade").click(function() {
+    $(".functions").slideToggle();
+    $("#functionsfade").slideToggle();
+  });
+  $("#methodsfade").click(function() {
+    $(".methods").slideToggle();
+    $("#methodsfade").slideToggle();
+  });
+  $("#argumentsfade").click(function() {
+    $(".arguments").slideToggle();
+    $("#argumentsfade").slideToggle();
+  });
+  $("#parametersfade").click(function() {
+    $(".parameters").slideToggle();
+    $("#parametersfade").slideToggle();
+  });
+  $("#stringsfade").click(function() {
+    $(".strings").slideToggle();
+    $("#stringsfade").slideToggle();
+  });
+  $("#booleansfade").click(function() {
+    $(".booleans").slideToggle();
+    $("#booleansfade").slideToggle();
+  });
+  $("#attributesfade").click(function() {
+    $(".attributes").slideToggle();
+    $("#attributesfade").slideToggle();
+  });
+
 });
