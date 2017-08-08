@@ -1,17 +1,30 @@
 h1 {
+  font-size: 60px;
   text-align: center;
+  color: white;
 }
 
 h3 {
-  color: blue;
+  color: white;
+  background-color: #2B504A;
   text-align: center;
+  border-radius: 15px;
 }
 h3:hover{
-  text-decoration: underline;
+  border: 1px solid white;
 }
 
 p {
+  font-size: 18px;
+  color: white;;
+  background-color: #5C7E78;
   text-align: center;
+  padding: 30px 0px 30px 0px;
+  border-radius: 15px;
+}
+
+body {
+  background-color: #7D9591;
 }
 
 .col-md-4 {
@@ -83,4 +96,9 @@ p {
 }
 .attributes {
   display: contents;
+}
+
+#directions {
+  margin-top: 50px;
+  border-radius: 15px;
 }

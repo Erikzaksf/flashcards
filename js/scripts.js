@@ -5,27 +5,35 @@ $(document).ready(function() {
   });
   $(".variables").click(function() {
     $("#variablesfade").fadeToggle();
+    $(".variables").fadeToggle();
   });
   $(".functions").click(function() {
     $("#functionsfade").fadeToggle();
+    $(".functions").fadeToggle();
   });
   $(".methods").click(function() {
     $("#methodsfade").fadeToggle();
+    $(".methods").fadeToggle();
   });
   $(".arguments").click(function() {
     $("#argumentsfade").fadeToggle();
+    $(".arguments").fadeToggle();
   });
   $(".parameters").click(function() {
     $("#parametersfade").fadeToggle();
+    $(".parameters").fadeToggle();
   });
   $(".strings").click(function() {
     $("#stringsfade").fadeToggle();
+    $(".strings").fadeToggle();
   });
   $(".booleans").click(function() {
     $("#booleansfade").fadeToggle();
+    $(".booleans").fadeToggle();
   });
   $(".attributes").click(function() {
     $("#attributesfade").fadeToggle();
+    $(".attributes").fadeToggle();
   });
 /*Click definitions*/
 
@@ -34,28 +42,36 @@ $("#operatorsfade").click(function() {
   $("#operatorsfade").fadeToggle();
 
 });
-$(".variables").click(function() {
+$("#variablesfade").click(function() {
+  $(".variables").fadeToggle();
   $("#variablesfade").fadeToggle();
 });
-$(".functions").click(function() {
+$("#functionsfade").click(function() {
+  $(".functions").fadeToggle();
   $("#functionsfade").fadeToggle();
 });
-$(".methods").click(function() {
+$("#methodsfade").click(function() {
+  $(".methods").fadeToggle();
   $("#methodsfade").fadeToggle();
 });
-$(".arguments").click(function() {
+$("#argumentsfade").click(function() {
+  $(".arguments").fadeToggle();
   $("#argumentsfade").fadeToggle();
 });
-$(".parameters").click(function() {
+$("#parametersfade").click(function() {
+  $(".parameters").fadeToggle();
   $("#parametersfade").fadeToggle();
 });
-$(".strings").click(function() {
+$("#stringsfade").click(function() {
+  $(".strings").fadeToggle();
   $("#stringsfade").fadeToggle();
 });
-$(".booleans").click(function() {
+$("#booleansfade").click(function() {
+  $("#booleansfade").fadeToggle();
   $("#booleansfade").fadeToggle();
 });
-$(".attributes").click(function() {
+$("#attributesfade").click(function() {
+  $(".attributes").fadeToggle();
   $("#attributesfade").fadeToggle();
 });
 });
