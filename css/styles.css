@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Cantarell');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
 h1 {
+  font-family: 'Cinzel', serif;
   font-size: 60px;
   text-align: center;
   color: white;
 }
 
 h3 {
+  font-family: 'Fjalla One', sans-serif;
   color: white;
   background-color: #2B504A;
   text-align: center;
@@ -16,6 +22,7 @@ h3:hover{
 }
 
 p {
+  font-family: 'Cantarell', sans-serif;
   font-size: 18px;
   color: white;;
   background-color: #5C7E78;
@@ -102,4 +109,6 @@ body {
 #directions {
   margin-top: 50px;
   border-radius: 15px;
+  padding: 20px 10px 20px 10px;
+  background-color: #2B504A;
 }
